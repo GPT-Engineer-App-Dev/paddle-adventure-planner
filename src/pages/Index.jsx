@@ -1,4 +1,4 @@
-import { Container, Text, VStack, Heading } from "@chakra-ui/react";
+import { Container, Text, VStack, Heading, Image } from "@chakra-ui/react";
 import Map from "../components/Map";
 
 const Index = () => {
@@ -7,6 +7,7 @@ const Index = () => {
       <VStack spacing={4}>
         <Heading as="h1" size="2xl">Kayaking in Sollenkroka, Värmdö</Heading>
         <Text fontSize="lg">Plan your perfect kayaking trip starting from Sollenkroka, Värmdö.</Text>
+        <Image src="/images/kayakers.jpg" alt="Kayakers" borderRadius="md" />
         <Map />
       </VStack>
     </Container>
